@@ -1,0 +1,122 @@
+body{
+    
+    background: url("/image/copy.jpg");
+}
+
+.navigation{
+   
+    /* border: 2px solid black; */
+}
+
+.left{
+    /* border: 2px solid rgb(227, 13, 13); */
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+
+}
+.image img{
+    filter: invert();
+    height: 135px;
+    width: 218px;
+}
+
+.left p{
+    position: absolute;
+    left: 5px;
+    top: 107px;
+    font-size: 28px;
+    margin: 0px;
+
+    text-align: center;
+    
+}
+
+.mid{
+    
+    color: aqua;
+    margin: auto;
+    width: 33%;
+    /* border: 2px solid rgb(227, 13, 13); */
+
+}
+
+/* .mid ul {
+    margin-top: 55px;
+} */
+.mid ul li{
+    margin: 15px 15px;
+    display: inline-block;
+    
+}
+
+.mid a{
+    color: aquamarine;
+    font-size: large;
+    text-decoration:none ;
+}
+
+.mid a:hover{
+    color: chartreuse;
+   
+}
+
+.right{
+    /* border: 2px solid rgb(227, 13, 13); */
+    color: aqua;
+    position: absolute;
+    right: 5px;
+    top: 15px;
+
+}
+
+.right button{
+    border-radius: 15px;
+   margin: 2px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.right button:hover{
+   background-color: aqua;
+}
+
+.form{
+    color: aliceblue;
+    position: absolute;
+    top: 215px;
+    border: 2px solid rgb(255, 255, 255);
+    height: 328px;
+    width: 466px;
+    left: 190px;
+    border-radius: 25px;
+}
+
+.form input{
+    border-radius: 25px;
+    text-align: center;
+    width: 439px;
+    margin: 6px;
+    border-radius: 27px;
+    height: 34px;
+}
+.form p{
+    text-align: center;
+    font-size: 2em;
+}
+
+.btn{
+    background-color:rgb(206, 78, 78)    ;
+    border-radius: 15px;
+   margin: 2px;
+    padding: 6px 10px;
+    cursor: pointer;
+    width: 189px;
+    height: 43px;
+    position: absolute;
+    left: 137px;
+    
+}
+
+.btn:hover{
+    background-color: aqua;
+ }
